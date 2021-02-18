@@ -1,2 +1,3 @@
 import x from './x.js'
-console.log(x)
+import './assets/x.css'
+console.log('121313131')
