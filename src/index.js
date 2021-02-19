@@ -2,11 +2,11 @@
 import '../src/assets/x.less'
 console.log('121313131')
 import img from '../src/assets/test.png';
-let app=document.querySelector('#app')
-console.log(img)
-app.innerHTML=`
-  <img src="${img}">
-`
+// let app=document.querySelector('#app')
+// console.log(img)
+// app.innerHTML=`
+//   <img src="${img}">
+// `
 
 const lazy =document.createElement('button')
 document.body.appendChild(lazy)
