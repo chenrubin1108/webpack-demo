@@ -8,17 +8,17 @@ import img from '../src/assets/test.png';
 //   <img src="${img}">
 // `
 
-const lazy =document.createElement('button')
-document.body.appendChild(lazy)
-lazy.innerText='我是懒加载'
-lazy.onclick=()=>{
-   console.log('1')
-   console.log('test')
-    const promise=import('./lazy.js')
-    promise.then((module)=>{
-        const fn=module.default
-        fn()
-       console.log(fn)
-    })
+// const lazy =document.createElement('button')
+// document.body.appendChild(lazy)
+// lazy.innerText='我是懒加载'
+// lazy.onclick=()=>{
+//    console.log('1')
+//    console.log('test')
+//     const promise=import('./lazy.js')sh
+//     promise.then((module)=>{
+//         const fn=module.default
+//         fn()
+//        console.log(fn)
+//     })
   
-}
+// }
