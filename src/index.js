@@ -13,7 +13,7 @@ document.body.appendChild(lazy)
 lazy.innerText='我是懒加载'
 lazy.onclick=()=>{
    console.log('1')
-   
+   console.log('test')
     const promise=import('./lazy.js')
     promise.then((module)=>{
         const fn=module.default
